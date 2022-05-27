@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Inscription</title>
+</head>
+<body>
+	<div class="form">
+		<form method="post" action="post.php">
+			<h2>Inscrivez vous ici</h2>
+			<input type="name" name="nom" placeholder="Entrez votre nom " required>
+			<input type="name" name="prenom" placeholder="Entrez votre prenom" required>
+			<input type="name" name="naissance" placeholder="JJ/MM/AA">
+			<input type="email" name="email" placeholder="Entrez votre email" required>
+			<input type="password" name="password" placeholder="Entrez votre mot de passe" required><br><br>
+			<label for="name">Niveau</label> <select name="niveau">
+				<option>1A BTS</option>
+				<option>2A BTS</option>
+				<option>Licence</option>
+				<option>Master</option>
+			</select>
+			<button class="btnn" type="submit"><a href="Envoyer.html">Envoyer</a></button>
+		</form>
+</body>
+</html>
